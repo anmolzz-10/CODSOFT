@@ -11,7 +11,7 @@ tasks = []
 
 # Function to get weather information
 def get_weather(city):
-    api_key = "fbcdc2b54f15e5633942c2c2071a9641"  # Your OpenWeatherMap API key
+    api_key = "API KEY"  # Your OpenWeatherMap API key
     base_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
     response = requests.get(base_url)
     data = response.json()
@@ -58,7 +58,7 @@ def manage_tasks(command):
 
 # Function to fetch the latest news headlines for today with category filtering
 def get_news(category=None):
-    api_key = "006fdce08eeb433fb068c80b0a8e0f7c"  # Your NewsAPI key
+    api_key = "API KEY"  # Your NewsAPI key
     base_url = "https://newsapi.org/v2/top-headlines"
     params = {
         'country': 'us',
