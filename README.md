@@ -1,2 +1,1 @@
-
-This is repo for codsoft Ai intern projects
+This is repo for Task 2 in codsoft Ai intern projects
