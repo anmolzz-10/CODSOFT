@@ -22,5 +22,5 @@ This project is a **Book Recommendation System** built using Flask, Surprise (a 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/book-recommendation-system.git
+git clone https://github.com/anmolzz-10/book-recommendation-system.git
 cd book-recommendation-system
